@@ -1,0 +1,294 @@
+﻿.table {
+   border-radius: 5px;
+   border-width: 5px;
+   background: #FBFBFB;
+   margin-top: 18px;
+   margin-bottom: 5px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.noot{
+margin-top:-15px;
+}
+.header{
+    height:90px;
+    background-color: initial;
+}
+
+.left-menu {
+background:#fbfbfb;
+
+}
+
+.content{
+    padding: 50px;
+	padding-top:0px;
+	padding-right:30px;
+	padding-left:20px;
+    font-size: 11pt;
+}
+
+body{
+font-family: Tahoma;
+}
+
+p{
+text-indent: 20px;
+}
+
+a.leks{
+margin:30px;
+
+}
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+
+.prik{
+background: linear-gradient(to top, #fbfbfb, #f8e2b9);
+}
+
+.droplink1 {
+    padding: 3px;
+    display:block;
+    text-decoration: none;
+    background: #FBFBFB;
+    cursor: pointer; /* Èçìåíåíèå âèäà êóğñîğà ïğè íàâåäåíèè*/
+}
+
+
+.droplink1 .button{
+    background: #FBFBFB; /* Öâåò ôîíà */
+    padding: 10px;
+	border: 1px solid #00247d;
+    border-radius:5px;
+    display:block;
+    font-size: 14px; /* Ğàçìåğ øğèôòà */ 
+    font-weight: bold; /* Íàñûùåííîñòü øğèôòà */
+    color: #00247d; /* Öâåò øğèôòà */
+    text-align: center; /* Íàäïèñü íà êíîïêå ïî öåíòğó */
+    text-decoration: none;
+    cursor: pointer; /* Èçìåíåíèå âèäà êóğñîğà ïğè íàâåäåíèè*/
+    transition-duration: 0.2s;
+}
+
+.droplink1 a:hover {
+    background:#00247d;
+    color: #ffffff; 
+}
+.droplink {
+    padding: 3px;
+    display:block;
+    text-decoration: none;
+    background: #FBFBFB;
+    cursor: pointer; /* Èçìåíåíèå âèäà êóğñîğà ïğè íàâåäåíèè*/
+}
+.droplink .button{
+    background: #ffd78c; /* Öâåò ôîíà */
+    padding: 10px;
+    border-radius:10px;
+    display:block;
+    font-size: 14px; /* Ğàçìåğ øğèôòà */ 
+    font-weight: bold; /* Íàñûùåííîñòü øğèôòà */
+    color: #00247d; /* Öâåò øğèôòà */
+    text-align: center; /* Íàäïèñü íà êíîïêå ïî öåíòğó */
+    text-decoration: none;
+    cursor: pointer; /* Èçìåíåíèå âèäà êóğñîğà ïğè íàâåäåíèè*/
+  
+}
+.droplink a:hover {
+    background:#00247d;
+    color: #ffffff; 
+}
+.droplink ul{
+    padding:0;
+    margin:0px;
+    list-style: none;
+   
+    
+}
+.droplink li{
+ padding:3px;
+
+}
+a img{
+    border:none;
+}
+
+droplink1 a img{
+    border: none;
+}
+droplink a img{
+    border: none;
+}
+
+.table .header .left-menu .content
+{
+    display: block;
+}
+
+a.button15 {
+  display: inline-block;
+  font-family: arial,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: rgb(68,68,68);
+  text-decoration: none;
+  user-select: none;
+  padding: 5px 15px;
+  margin: 5px 30px;
+  outline: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+  transition: all .218s ease 0s;
+}
+a.button15:hover {
+  color: rgb(24,24,24);
+  border: 1px solid rgb(198,198,198);
+  background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+a.button15:active {
+  color: rgb(51,51,51);
+  border: 1px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+
+table.glos{
+width:100%;
+border-collapse: collapse;
+border: 2px solid #FBFBFB;;
+}
+
+.glos td{
+
+    padding:10px 10px; /* Ïîëÿ âîêğóã ñîäåğæèìîãî òàáëèöû */
+    border-bottom: 1px solid #00247d; /* Ïàğàìåòğû ğàìêè */
+    text-align: left; /* Âûğàâíèâàíèå ïî ëåâîìó êğàş */
+   }
+   #toTop {
+ position:fixed;
+ z-index:9999;
+ bottom:20px;
+ right:10px;
+ background: #ffffff;
+ border: 1px solid #ccc;
+ padding: 5px;
+ cursor: pointer;
+ color: #FBFBFB;
+ text-decoration: none;
+ width:90px;
+}
+
+/* регистрация	*/
+html, body{
+	height: 90%;
+}
+
+body{
+	font: 14px/1.5 'PT Sans', Arial, Helvetica, sans-serif;
+	color:#333;
+}
+h1{
+	font-size: 2em;
+}
+.clear{
+	*zoom:1;
+}
+.clear:before, .clear:after{
+	content:'';
+	display:table;
+	line-height: 0;
+}
+.clear:after{
+	clear:both;
+}
+.wrapper{
+	width: 50%;
+	min-width: 670px;
+	margin: 20px auto;
+}
+#form-fields-container{
+	border:1px solid #e3e3e3;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
+	padding: 20px;
+}
+
+#submit-container{
+	background: #e3e3e3;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+			border-radius: 4px;
+	margin-top: 7px;
+	height: 21px;
+	padding: 10px 20px;
+}
+ul{
+	margin-bottom: 33px;
+}
+ul li{
+	list-style-type: none;
+	margin-bottom: 10px;
+	font-weight: bold;
+	height: 24px;
+}
+input{
+	width: 213px;
+	height: 22px;
+	border:1px solid #C1C1C1;
+	padding: 0 5px;
+	vertical-align: middle;
+	line-height: 1.5;
+}
+label{
+	display: inline-block;
+	vertical-align: middle;
+	width: 82px;
+}
+.check, .not-check{
+
+	display: inline-block;
+	vertical-align: bottom;
+	vertical-align: middle;
+	height: 24px;
+	width: 200px;
+}
+.check{
+	background: url(https://leto1f.storage.yandex.net/rdisk/43b654b116d70259f1ec4bd7f593f3b783482ddd47359695391703aad394c2a9/inf/NMZdKZsMw_UQeLUI0hzkKHzu6mKig9NbHhtrbykuJaTCUr43W-RG-J5-RTpG9kEn6ccczB2lN7hqwdoT264FYQ==?uid=0&filename=check.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&rtoken=702e3780cb99804bfa8d8d72d8664f18&force_default=no) left center no-repeat;
+}
+.not-check{
+	text-indent: 24px;
+	color:red;
+	background: url(https://leto5e.storage.yandex.net/rdisk/06824d76c9ccbfdd53947ddeda7ff578bb717b39af501983f481853160993d3a/inf/IqFA8T5yC1WwbDyGXMbXAzJwOZUsTeJMJan3Nvpzqbam_8I5o__dUYMeHFbLrRcGYLBW9wgiqJn2rG3g9pASHA==?uid=0&filename=not-check.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&rtoken=702e3780cb99804bfa8d8d72d8664f18&force_default=no) left center no-repeat;
+}
+.capcha label{
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.capcha img{
+	float: left;
+}
+.capcha input{
+	margin-left: 24px;
+}
+#submit{
+	height: 21px;
+	width: 153px;
+	outline: none;
+	cursor: pointer;
+	border:none;
+	padding: 0 !important;
+	margin: 0 82px;
+	background: url(https://leto33f.storage.yandex.net/rdisk/b57f593d0ccfba36e5c2ee9a532fde0a93e98456d88e01e1aad9b92d3c0a55bf/inf/Ur0S943RrYiPE_gSWfnlrx5UG1u8yIQxikZhJQ8LdFSDUMprQz2pOuzPuZrBsyPAYPDmbUAg7p_Rvuvp0jQ_TQ==?uid=0&filename=button-submit.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&rtoken=702e3780cb99804bfa8d8d72d8664f18&force_default=no) no-repeat;
+}
+
+	
+	
+	
+	
